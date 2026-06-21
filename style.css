@@ -43,7 +43,7 @@ button {
 }
 
 .logo {
-width: 300px;
+    width: 300px;
 }
 
 ul {
@@ -72,7 +72,10 @@ a {
 
 }
 
-#about, #discord, #contact, footer {
+#about,
+#discord,
+#contact,
+footer {
     padding: 48px 0;
 }
 
@@ -87,9 +90,9 @@ h2 {
 }
 
 .section__description {
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about__img--wrapper {
@@ -128,7 +131,8 @@ form {
     margin: 0 auto;
 }
 
-input, textarea {
+input,
+textarea {
     margin-bottom: 24px;
     font-size: 20px;
     padding: 6px 12px;
